@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .text {
@@ -18,6 +18,39 @@ h1 {
 #smiley {
   width: 300px;
   height: auto;
+}
+
+#title{
+    background-color: #BD4D56;
+    width: auto;
+    font-family: courier, monospace;
+    letter-spacing: 5px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.btn-group button{
+    background-color: #BD4D56;
+    border: 1px solid #212634;
+    color: #E9F4EA;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+    margin-top: 0;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child){
+    border-right: none;
+}
+
+.btn-group button:hover {
+    background-color: #738F9E;
 }
 
 /* Media query to shrink smiley face to 300px when viewport is equal to or smaller than 400px */
