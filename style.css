@@ -19,3 +19,10 @@ h1 {
   width: 300px;
   height: auto;
 }
+
+/* Media query to resize smiley when screen is <= 400px */
+@media only screen and (max-width: 400px) {
+    #smiley {
+        width: 300px;
+    }
+  }
