@@ -20,9 +20,8 @@ h1 {
   height: auto;
 }
 
-/* Media query to resize smiley when screen is <= 400px */
-@media only screen and (max-width: 400px) {
-    #smiley {
-        width: 300px;
-    }
-  }
+#smiley {
+    /* Percentage width instead of pixels to make smiley face scale fluidly */
+    width: 50%;
+    height: auto;
+}
