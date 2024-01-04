@@ -16,8 +16,11 @@ h1 {
 }
 
 #discord {
+  display: block;
   width: 50px;
   height: auto;
+  margin-left: 25%;
+  margin-right: auto;
 }
 
 #title{
@@ -30,13 +33,16 @@ h1 {
 }
 
 .btn-group button{
-    background-color: #BD4D56;
+    background-color:#738F9E;
     border: 1px solid #212634;
-    color: #E9F4EA;
+    color:#212634;
     padding: 10px 24px;
     cursor: pointer;
     float: left;
     margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
 }
 
 .btn-group:after {
@@ -50,22 +56,29 @@ h1 {
 }
 
 .btn-group button:hover {
-    background-color: #738F9E;
+    background-color:#BD4D56;
+    color:#E9F4EA;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
-#socials-left {
-  margin-left: 25%;
+.socials {
+  text-align: center;
+  align-content: center;
   margin-top: 15px;
+  font-size: 30;
 }
 
-/* Media query to shrink smiley face to 300px when viewport is equal to or smaller than 400px */
+
+
+/* Shrinks icons */
 @media only screen and (max-width: 400px) {
     #discord {
-      width: 25px;
+      width: 35px;
     }
   }
 
-/* Media query to set smiley face's width to percentage when viewport is equal to or smaller than 300px */
+/* For super small screens */
 @media only screen and (max-width: 300px) {
     #discord {
       max-width: 300px;
