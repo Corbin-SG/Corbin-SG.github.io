@@ -17,9 +17,9 @@ h1 {
 
 #discord {
   display: block;
-  width: 50px;
+  width: 5%;
   height: auto;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-right: auto;
 }
 
@@ -40,6 +40,7 @@ h1 {
     cursor: pointer;
     float: left;
     margin-top: 0;
+    margin-bottom: 15px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
@@ -67,21 +68,6 @@ h1 {
   align-content: center;
   margin-top: 15px;
   font-size: 30;
+  border-radius: 25px;
+  background-color: #c7d0de;
 }
-
-
-
-/* Shrinks icons */
-@media only screen and (max-width: 400px) {
-    #discord {
-      width: 35px;
-    }
-  }
-
-/* For super small screens */
-@media only screen and (max-width: 300px) {
-    #discord {
-      max-width: 300px;
-      width: 10%;
-    }
-  }
