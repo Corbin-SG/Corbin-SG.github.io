@@ -1,8 +1,4 @@
-p {
-    color: red;
-}
 
-/* Additional CSS rules */
 body {
   background-color: #E9F4EA;
 }
@@ -13,14 +9,16 @@ h1 {
 
 .text {
   color: #212634;
+  text-align: center;
 }
 
-#discord {
+#icon {
   display: block;
   width: 5%;
   height: auto;
-  margin-left: 20%;
-  margin-right: auto;
+  margin-left: 23%;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 #title{
@@ -68,6 +66,12 @@ h1 {
   align-content: center;
   margin-top: 15px;
   font-size: 30;
-  border-radius: 25px;
+  border-radius: 5px;
   background-color: #c7d0de;
+}
+
+@media only screen and (max-width: 300px) {
+  .btn-group button {
+    font-size: 10;
+  }
 }
