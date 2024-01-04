@@ -71,7 +71,7 @@ h1 {
 }
 
 @media only screen and (max-width: 300px) {
-  .btn-group button {
-    font-size: 10;
+  #icon {
+    width: 15%;
   }
 }
