@@ -1,6 +1,6 @@
 
 body {
-  background-color: #E9F4EA;
+  background-color: #d0d3df;
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
 }
 
 .text {
-  color: #212634;
+  color: #001011;
   text-align: center;
 }
 
@@ -22,18 +22,19 @@ h1 {
 }
 
 #title{
-    background-color: #BD4D56;
+    background-color: #6CCFF6;
     width: auto;
-    font-family: courier, monospace;
+    font-family:cursive;
+    font-weight: bolder;
     letter-spacing: 5px;
     padding: 20px;
     margin-bottom: 0;
 }
 
 .btn-group button{
-    background-color:#738F9E;
-    border: 1px solid #212634;
-    color:#212634;
+    background-color:#64c1e5;
+    border: 1px solid #001011;
+    color:#001011;
     padding: 10px 24px;
     cursor: pointer;
     float: left;
@@ -55,8 +56,8 @@ h1 {
 }
 
 .btn-group button:hover {
-    background-color:#BD4D56;
-    color:#E9F4EA;
+    background-color:#98C300;
+    color:#001011;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
